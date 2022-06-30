@@ -4,6 +4,7 @@ import wordsToNumbers from 'words-to-numbers';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
 import logo from './images/logo.png';
+import headerbg from './images/news-bg.webp';
 import { NewsCards, Modal } from './components';
 import useStyles from './styles';
 
@@ -54,14 +55,14 @@ const App = () => {
             <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
           </div>
         ) : null}
-        <img src="https://www.canva.com/design/DAE7tSDVmwI/view" className={classes.adejuwonsLogo} alt="logo" />
+        <img className={classes.image} src={headerbg} height="300px" alt="Header logo" />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
       {!newsArticles.length ? (
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
-            Created by
+            Made with ❤️ by
             <a className={classes.link} href="https://adejuwonsalley.netlify.app/"> Ojurongbe Adejuwon</a> -
             <a className={classes.link} href="http://twitter.com/juwonmcalpha"> adejuwonsAlley</a>
           </Typography>
