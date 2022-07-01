@@ -4,7 +4,7 @@ import wordsToNumbers from 'words-to-numbers';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
 import logo from './images/logo.png';
-import headerbg from './images/news-bg.webp';
+import headerbg from './images/newsbg.png';
 import { NewsCards, Modal } from './components';
 import useStyles from './styles';
 
