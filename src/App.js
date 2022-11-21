@@ -64,7 +64,7 @@ const App = () => {
           <Typography variant="body1" component="h2">
             Made with ❤️ by
             <a className={classes.link} href="https://adejuwonsalley.netlify.app/"> Ojurongbe Adejuwon</a> -
-            <a className={classes.link} href="http://twitter.com/juwonmcalpha"> adejuwonsAlley</a>
+            <a className={classes.link} href="https://github.com/Adejuwon-00"> adejuwonsAlley</a>
           </Typography>
           <img className={classes.image} src={logo} height="50px" alt="Adejuwons logo" />
         </div>

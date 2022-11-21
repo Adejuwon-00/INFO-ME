@@ -21,7 +21,7 @@ export default makeStyles((theme) => ({
     color: 'rgba(21, 101, 192)',
   },
   image: {
-    marginLeft: 20,
+    marginLeft: 15,
   },
   card: {
     display: 'flex',
